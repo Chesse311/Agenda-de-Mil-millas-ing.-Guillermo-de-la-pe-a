@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cuadrícula de Patrones</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+
+  <h1>Cuadrícula interactiva</h1>
+
+  <div id="controls">
+    <label>
+      Ancho:
+      <input type="number" id="cols" value="10" min="1" />
+    </label>
+
+    <label>
+      Alto:
+      <input type="number" id="rows" value="10" min="1" />
+    </label>
+
+    <button id="generate">Generar cuadrícula</button>
+  </div>
+
+  <label>
+    Color:
+    <input type="color" id="colorPicker" value="#000000">
+  </label>
+
+  <div id="palette">
+    <div class="color-swatch" data-color="#000000"></div>
+    <div class="color-swatch" data-color="#ffffff"></div>
+    <div class="color-swatch" data-color="#e63946"></div>
+    <div class="color-swatch" data-color="#457b9d"></div>
+    <div class="color-swatch" data-color="#2a9d8f"></div>
+    <div class="color-swatch" data-color="#f4a261"></div>
+  </div>
+
+  <div id="grid"></div>
+
+  <p>Total de puntos marcados: <strong id="count">0</strong></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

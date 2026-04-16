@@ -1,0 +1,9 @@
+la idea es hacerlo por partes o hitos, modificando el codigo segun el siguiente paso que se quiere seguir:
+
+- Lo primero seria aprender a manejar css grid, a como poner imagenes en cada cuadricula
+
+- Tambien recordar bien como usar javascrpt, ahi tengo los documentos de lo visto con el profe carlos y hay tutoriales en youtube (getElement, funciones, variables, bucles y todo lo basico)
+
+- Hacer mockups y sacar requerimientos funcionales y no funcionales
+
+- re elegir que idiomas, bibliotecas, base e infraestructura, basicamente lo principal de lo que hice este semestre pero para erina
