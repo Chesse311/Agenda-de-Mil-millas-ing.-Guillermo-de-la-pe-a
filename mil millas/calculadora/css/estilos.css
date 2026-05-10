@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cuerpoCalculadora{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.pantalla{
+    display: inline-block;
+}
+
+.hist{
+    display: inline-block;
+}
+
+.imagen{
+    border: solid 1px;
+    border-bottom: 0px;
+    margin: 5px;
+    margin-bottom: 0px;
+    height: 30px;
+    width: 199px;
+    
+    text-align: end;
+}
+
+
+
+.botonG{
+    display: inline-block;
+    background-color: aqua;
+    border: solid 1px;
+    border-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 18px;
+}
+
+.linea{
+    display: flex;
+}
+

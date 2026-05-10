@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+<body>
+    <h1>Calculadora digital</h1>
+    <div class="cuerpoCalculadora">
+        <div class="imagen">
+            <div class="hist" id="hist">
+        </div>
+        <div class="pantalla" id="pantalla">
+            0
+        </div>
+    </div>
+        
+    <div class="botones">          
+        <div class="linea">
+            <input type="button" class="botonG" class="botonBorrarT" id="botonBorrarT" value="AC" onclick="botonBorrarT()">
+            <input type="button" class="botonG" class="botonBorrar" id="botonBorrar" value="⌫" onclick="botonBorrar()">                        <input type="button" class="botonG" class="botonPorcen" id="botonPorcen" value="%" onclick="botonPorcen()">
+            <input type="button" class="botonG" class="botonDiv" id="botonDiv" value="÷" onclick="botonDiv()">
+        </div>
+        <div class="linea">
+            <input type="button" class="botonG" class="boton7" id="boton7" value="7" onclick="botonSiete()">
+            <input type="button" class="botonG" class="boton8" id="boton8" value="8" onclick="botonOcho()">
+            <input type="button" class="botonG" class="boton9" id="boton9" value="9" onclick="botonNueve()">
+            <input type="button" class="botonG" class="botonMulti" id="botonMulti" value="x" onclick="botonMulti()">
+        </div>
+        <div class="linea">
+            <input type="button" class="botonG" class="boton4" id="boton4" value="4" onclick="botonCuatro()">
+            <input type="button" class="botonG" class="boton5" id="boton5" value="5" onclick="botonCinco()">
+            <input type="button" class="botonG" class="boton6" id="boton6" value="6" onclick="botonSeis()">
+            <input type="button" class="botonG" class="botonMenos" id="botonMenos" value="-" onclick="botonMenos()">
+        </div>
+        <div class="linea">
+            <input type="button" class="botonG" class="boton1" id="boton1" value="1" onclick="botonUno()">
+            <input type="button" class="botonG" class="boton2" id="boton2" value="2" onclick="botonDos()">
+            <input type="button" class="botonG" class="boton3" id="boton3" value="3" onclick="botonTres()">
+            <input type="button" class="botonG" class="botonMas" id="botonMas" value="+" onclick="botonMas()">
+        </div>
+        <div class="linea">
+            <input type="button" class="botonG" class="boton0" id="botonDoble0" value="00" onclick="botonDobleCero()">        
+            <input type="button" class="botonG" class="boton0" id="boton0" value="0" onclick="botonCero()">
+            <input type="button" class="botonG" class="botonPunto" id="botonPunto" value="." onclick="botonPunto()">
+            <input type="button" class="botonG" class="botonResultado" id="botonResultado" value="=" onclick="botonResultado()">
+        </div>   
+    </div>
+</body>
+</html>
