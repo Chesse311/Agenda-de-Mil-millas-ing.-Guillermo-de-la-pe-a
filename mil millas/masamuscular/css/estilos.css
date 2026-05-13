@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(208, 233, 255);
+}
+
+.cuerpo{
+    border: solid black 1.5px;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: left;
+    background-color: rgba(127, 80, 255, 0.065);
+}
+
+.input{
+    background-color: rgba(0, 30, 255, 0.039);
+    border: solid 1px;
+    border-radius: 15px;
+    margin: 8px;
+}
+
+.input:hover{
+    background-color: rgba(0, 106, 255, 0.155);
+}
+
+
+
+
