@@ -5,7 +5,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(208, 233, 255);
+    background-color: rgb(203, 253, 210);
 }
 
 .cuerpo{
@@ -17,16 +17,39 @@ body{
 }
 
 .input{
-    background-color: rgba(0, 30, 255, 0.039);
+    background-color: rgba(0, 255, 157, 0.039);
     border: solid 1px;
     border-radius: 15px;
     margin: 8px;
 }
 
 .input:hover{
-    background-color: rgba(0, 106, 255, 0.155);
+    background-color: rgba(7, 235, 29, 0.155);
 }
 
+a{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border: solid 1.5px;
+    border-radius: 8px;
+}
 
+a:hover{
+    background-color: rgba(71, 187, 56, 0.651);
+}
 
+.boton{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border: solid 1.5px;
+    border-radius: 8px;
+}
+
+.boton:hover{
+    background-color: rgba(71, 187, 56, 0.651);
+}
 

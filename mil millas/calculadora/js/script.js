@@ -10,11 +10,11 @@ var resultado
 var finalOperacion = false
 
 function actualizarPantalla(){
-    document.getElementById("pantalla").textContent = pantalla || "";
+    document.getElementById("pantalla").textContent = pantalla ;
 }
 
 function actualizarHist(){
-    document.getElementById("hist").textContent = hist || "";
+    document.getElementById("hist").textContent = hist ;
 }
 
 function botonUno(){
@@ -268,7 +268,8 @@ function botonResultado(){
         hist = `${parteA} % ${parteB} =`
     } else if (calculo == "/"){
         if (parteB == 0){
-            console.log("ERROR: No se puede dividir por 0")
+            botonBorrarT();
+            alert("ERROR: No se puede dividir por 0")
         } else {
             resultado = parteA / parteB
             hist = `${parteA} ÷ ${parteB} = `

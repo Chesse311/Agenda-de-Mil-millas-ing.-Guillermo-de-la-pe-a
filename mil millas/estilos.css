@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(203, 253, 210);
+}
+
+a{
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border: solid 1.5px;
+    border-radius: 8px;
+}
+
+a:hover{
+    background-color: rgba(71, 187, 56, 0.651);
+}

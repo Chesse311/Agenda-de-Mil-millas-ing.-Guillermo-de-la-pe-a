@@ -5,7 +5,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    background-color: rgb(203, 253, 210);
 }
 
 .cuerpoCalculadora{
@@ -18,6 +18,7 @@ body{
 
 .pantalla{
     display: inline-block;
+    
 }
 
 .hist{
@@ -29,27 +30,46 @@ body{
     border-bottom: 0px;
     margin: 5px;
     margin-bottom: 0px;
-    height: 30px;
-    width: 199px;
-    
+    height: 80px;
+    width: 398px;
+    background-color: rgb(181, 231, 196);    
     text-align: end;
+    font-size: 30px;
 }
 
 
 
 .botonG{
     display: inline-block;
-    background-color: aqua;
+    background-color: rgb(31, 182, 77);
     border: solid 1px;
     border-color: rgb(0, 0, 0);
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     margin-top: 0px;
     margin-left: 0px;
-    font-size: 18px;
+    font-size: 30px;
+}
+
+.botonG:hover{
+    background-color: rgb(22, 134, 55);
 }
 
 .linea{
     display: flex;
+}
+
+
+a{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border: solid 1.5px;
+    border-radius: 8px;
+}
+
+a:hover{
+    background-color: rgba(71, 187, 56, 0.651);
 }
 
