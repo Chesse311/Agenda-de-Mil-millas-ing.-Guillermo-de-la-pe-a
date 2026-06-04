@@ -1,0 +1,80 @@
+body {
+    font-family: "Hanken Grotesk", sans-serif;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #DDF29D ;
+}
+
+
+.contenedorC {
+    align-items: center;
+    flex-direction: row;
+    background-color: #90a955;
+    padding: 10px;
+    height: auto;
+    width: 400px;
+    border: 2px solid #132a13;
+    border-radius: 20px;
+    box-shadow: 3px 4px 0px 1px #4f772d;
+}
+
+.contenedorB {
+    align-items: center;
+    flex-direction: row;
+    background-color: #90a955;
+    padding: 10px;
+    height: auto;
+    width: 400px;
+    border: 2px solid #132a13;
+    border-radius: 20px;
+    box-shadow: 3px 4px 0px 1px #4f772d;
+}
+
+.titulo {
+    color: #132a13;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.menu_comida  .detalles {
+    display:flex;
+    grid-template-columns: auto;
+    grid-template-columns: 10fr 1fr;
+    padding: 0px;
+    gap: 5px;
+}
+
+.menu_bebidas .detalles{
+    display: flex;
+    grid-template-columns: auto;
+    grid-template-columns: 10fr 1fr;
+    padding: 0px;
+    gap: 5px;
+}
+
+.detalles
+
+.button {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: 700;
+    padding: 10px 30px;
+    width: 200px;
+    cursor: pointer;
+    padding-left: 11px;
+    text-align: center;
+}
+
+
+.button:hover {
+    color: rgb(172, 40, 0);
+    text-align: center;
+    border-radius: 3px;
+    background-color: rgb(255, 83, 53);
+}
+

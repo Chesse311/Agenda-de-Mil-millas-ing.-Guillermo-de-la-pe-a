@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubre tu signo zodiacal</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="form">
+            <p class="titulo">Descubre tu signo<br>zodiacal</p>
+            <form action="">
+                <div class="form_dentro">
+                    <label class="sub_titulo" for="año">Año en que naciste</label>
+                    <input placeholder="e.j. 2005" class="form_estilo" type="number" id="año">
+                </div>
+                <div class="form_dentro">
+                    <label class="sub_titulo" for="mes">Mes en que naciste</label>
+                    <input placeholder="Mes en numeros del 1 al 12" id="mes" class="form_estilo" type="number" id="mes">
+                </div>
+                <div class="form_dentro">
+                    <label class="sub_titulo" for="dia">Dia en que naciste</label>
+                    <input placeholder="Dia en numeros del 1 al 31" id="dia" class="form_estilo" type="number" id="dia">
+                </div>
+            </form>
+            <div>
+                <button class="btn" onclick="mostrar()">Descubrir</button>
+                <br><br>
+                <a class="btn" href="../index.html">Volver a proyectos</a>
+                <br><br>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="resultado" class="contenedor_resultado" style="display:none;">
+        <div class="contenedor_resultado_dentro">
+            <div class="encabezado_3">Tu resultado</div>
+            <div class="circulo_img">
+                <div class="encabezado_1">
+                    <p id="simbolo"></p>
+                </div>
+            </div>       
+            <div>
+                <div class="encabezado_2" id="signo"></div>
+                <p class="texto" id="descripcion"></p>
+            </div>
+            <div >
+                <button class="btn2" onclick="reiniciar()">
+                        REINICIAR 
+                </button>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
